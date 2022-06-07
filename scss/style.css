@@ -1,0 +1,330 @@
+#navbar {
+  margin-top: 2%;
+}
+
+.images {
+  height: 36px;
+  width: 107px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.ulstyle ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ulstyle ul li {
+  list-style: none;
+}
+
+.ulstyle ul p {
+  padding: 0.8% 1.7%;
+  margin: 0;
+  border-radius: 15px;
+  background: #F3F3F3;
+}
+
+.ulstyle ul span {
+  background: #FFC700;
+  border-radius: 50%;
+  padding: 0.9% 1.5%;
+}
+
+#headerbar {
+  position: relative;
+  background: #F3F3F3;
+  height: 850px;
+  width: 1630px;
+  margin: 2%;
+  padding: 50px 0px;
+  border-radius: 30px;
+}
+
+#headerbar .black-icon {
+  width: 370px;
+}
+
+#headerbar .text1 {
+  font-family: arial;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 115px;
+}
+
+#headerbar .text2 {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#headerbar .texts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#headerbar .texts .texts-2 {
+  margin-left: 10px;
+}
+
+#headerbar .texts .texts-2 .text3 {
+  margin: 0;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: 400;
+  color: #00000080;
+}
+
+#headerbar .texts .texts-2 .text4 {
+  margin: 0;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FF0000;
+}
+
+#headerbar .iconicimg .v-1 {
+  position: absolute;
+  left: 79%;
+  right: 8.33%;
+  top: 2%;
+}
+
+#headerbar .iconicimg .v-2 {
+  position: absolute;
+  left: 82%;
+  right: 8.33%;
+  top: 2%;
+}
+
+#headerbar .iconicimg .v-3 {
+  position: absolute;
+  left: 85%;
+  right: 8.33%;
+  top: 2%;
+}
+
+#headerbar .iconicimg .v-4 {
+  position: absolute;
+  left: 88%;
+  right: 8.33%;
+  top: 2%;
+}
+
+#headerbar .iconicimg .v-5 {
+  position: absolute;
+  left: 91%;
+  right: 8.33%;
+  top: 2%;
+}
+
+#headerbar .asideimg img {
+  margin-top: 30px;
+  height: 700px;
+  width: 700px;
+  border-radius: 30px;
+}
+
+#headerbar .ellipse img {
+  position: absolute;
+  width: 133px;
+  height: 15.69px;
+  left: 68%;
+  bottom: 30px;
+}
+
+main .maintext {
+  position: absolute;
+  width: 417px;
+  left: 181px;
+  top: 1000px;
+  font-family: arial;
+  font-weight: 700;
+  font-size: 50px;
+  color: #262626;
+}
+
+main .maintext2 {
+  position: absolute;
+  width: 1207px;
+  left: 181px;
+  top: 1080px;
+  font-family: arial;
+  font-weight: 400;
+  font-size: 25px;
+  color: #262626;
+}
+
+main .button1 {
+  position: absolute;
+  top: 1200px;
+  left: 180px;
+  gap: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .button1 .buttons {
+  background-color: #FFC700;
+  border: none;
+}
+
+main .button1 button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  padding: 10px 5px;
+  border: 2px solid #262626;
+  background-color: white;
+  border-radius: 45px;
+}
+
+main .button1 button a {
+  text-decoration: none;
+  font-family: arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: #262626;
+}
+
+main .button2 {
+  position: absolute;
+  top: 1280px;
+  left: 180px;
+  gap: 20px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .button2 button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 200px;
+  height: 50px;
+  padding: 10px 5px;
+  border: 2px solid #262626;
+  background-color: white;
+  border-radius: 45px;
+}
+
+main .button2 button a {
+  text-decoration: none;
+  font-family: arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: #262626;
+}
+
+main .text .text-11 {
+  position: absolute;
+  width: 1207px;
+  left: 181px;
+  top: 1380px;
+  font-family: arial;
+  font-weight: 600;
+  font-size: 50px;
+  color: #262626;
+}
+
+main .text .text-12 {
+  position: absolute;
+  width: 1207px;
+  left: 181px;
+  top: 1550px;
+  font-family: arial;
+  font-weight: 400;
+  font-size: 25px;
+  color: #262626;
+}
+
+main .numbertext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 1500px;
+  height: 120px;
+  left: 90px;
+  top: 1680px;
+  border: 2px solid #262626;
+  border-radius: 25px;
+}
+
+main .numbertext .yellow {
+  color: #FFC700;
+  font-size: 60px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+main .numbertext .y-text {
+  text-align: center;
+  color: #262626;
+  font-size: 20px;
+}
+
+main .endphoto {
+  width: 80%;
+  position: absolute;
+  left: 90px;
+  top: 1900px;
+}
+
+main .endphoto img {
+  width: 60%;
+  margin-top: 10px;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0%;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
