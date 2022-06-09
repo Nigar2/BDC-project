@@ -33,6 +33,41 @@
 }
 
 #headerbar{
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        border-radius: 50px;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        
+      }
     position: relative;
     background: #F3F3F3;
     height: 850px;
@@ -45,13 +80,13 @@
        width: 370px;
    } 
    .text1{
-    font-family: arial;
+    font-family: $f-family;
     font-size: 90px;
     font-weight: 700;
     line-height: 115px;
    }
    .text2{
-    font-family: arial;
+    font-family: $f-family;
     font-size: 20px;
     font-weight: $f-weight;
     line-height: 30px;
@@ -63,7 +98,7 @@
            margin-left: 10px;
            .text3{
              margin: 0;
-            font-family: arial;
+            font-family: $f-family;
             font-size: 15px;
             font-weight: $f-weight;
             color: #00000080;
@@ -71,7 +106,7 @@
            }
            .text4{
             margin: 0;
-            font-family: arial;
+            font-family: $f-family;
             font-size: 20px;
             font-weight: 700;
             color: #FF0000;
@@ -83,54 +118,36 @@
        
        .v-1{
         position: absolute;
-        left: 79%;
+        left: 76%;
         right: 8.33%;
         top: 2%;      
        }
        .v-2{
         position: absolute;
-        left: 82%;
+        left: 79%;
         right: 8.33%;
         top: 2%; 
        }
        .v-3{
         position: absolute;
-        left: 85%;
+        left: 82%;
         right: 8.33%;
         top: 2%; 
        }
        .v-4{
         position: absolute;
-        left: 88%;
+        left: 85%;
         right: 8.33%;
         top: 2%; 
        }
        .v-5{
         position: absolute;
-        left: 91%;
-        right: 8.33%;
+        left: 88%;
+        right: 8%;
         top: 2%; 
        }
    }
 
-    .asideimg {
-        img{
-            margin-top: 30px;
-            height: 700px;
-            width: 700px;
-            border-radius: 30px;     
-        }
-    }
-    .ellipse{
-        img{
-            position: absolute;
-            width: 133px;
-            height: 15.69px;
-            left: 68%;
-            bottom: 30px;
-
-        }
-    }
 }
 
 main{
@@ -139,7 +156,7 @@ main{
         width: 417px;
         left: 181px; 
         top: 1000px;  
-        font-family: arial;
+        font-family:$f-family;
         font-weight: 700;
         font-size: 50px;   
         color: $textcolor;
@@ -149,7 +166,7 @@ main{
     width: 1207px;
     left: 181px;
     top: 1080px;
-    font-family: arial;
+    font-family: $f-family;
     font-weight: $f-weight;
     font-size: $f-size;
     color: $textcolor;
@@ -180,7 +197,7 @@ main{
             border-radius: 45px;
             a{
             text-decoration: none;  
-            font-family: arial;
+            font-family: $f-family;
             font-style: normal;
             font-weight: 700;
             font-size: 15px;
@@ -209,7 +226,7 @@ main{
             border-radius: 45px;
             a{
             text-decoration: none;  
-            font-family: arial;
+            font-family: $f-family;
             font-style: normal;
             font-weight: 700;
             font-size: 15px;
@@ -225,7 +242,7 @@ main{
             width: 1207px;
             left: 181px;
             top: 1380px;
-            font-family: arial;
+            font-family: $f-family;
             font-weight: 600;
             font-size: 50px;
             color: $textcolor;
@@ -235,7 +252,7 @@ main{
             width: 1207px;
             left: 181px;
             top: 1550px;
-            font-family: arial;
+            font-family: $f-family;
             font-weight: 400;
             font-size: $f-size;
             color: #262626;  
@@ -272,12 +289,370 @@ main{
     .endphoto{
         width: 80%;
         position: absolute;
+        margin: 2%;
         left: 90px;
         top: 1900px;
-        img{
-            width: 60%;
-            margin-top: 10px;
-           
+        .frames{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 60px;
+            .frameimg img{
+                width: 170px;
+                margin-top: 40px;
+            }
+            .frametext{
+                font-family: 'Gotham', sans-serif;
+                font-size: $f-size;
+            }
         }
     }
+
+    .rectangle{
+        position: absolute;
+        margin: 2%;
+        top: 2600px;
+        .rectangletext{
+            margin-left: 130px;
+            font-size: 50px;
+            font-family: $f-family;
+            font-weight: 700;
+        }
+        .rectangleimg img{
+            width: 100%;
+        }
+    }
+
+    .vectors{
+        
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 40px;
+
+        .vecimg{
+            padding-bottom: 30px;
+            img{
+                width: 40px;
+            }
+        }
+        .vectext{
+            padding-left: 18px;
+            line-height: 45px;
+            font-family: $f-family;
+            font-size: 20px;
+            font-weight: $f-weight;
+            
+        }
+    }
+
+    .t-12{
+            margin-left: 130px;
+            font-family: $f-family;
+            font-weight: 400;
+            font-size: $f-size;
+            color: #262626;
+    }
+
+    .humanway{
+        padding-left: 100px;
+        padding-top: 30px;
+        margin-top: 40px;
+        align-items: center;
+        box-sizing: border-box;
+        width: 1620px;
+        height: 330px;
+        border: 2px solid #262626;
+        border-radius: $f-size;
+        .humanimg img{
+            width: 180px;
+        }
+
+        .xett{
+          position: absolute;
+          left: 550px;
+          top: 1610px;
+        }
+        .xettt{
+            position: absolute;
+            left: 920px;
+            top: 1610px;
+        }
+        .humantext{
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            p{
+                margin: 20px 18px;
+                padding-right: 170px;
+                font-size: $f-size;
+            }
+
+        }
+    }
+
+    .fourimages{
+        position: absolute;
+        top: 4650px;
+        left: 150px;
+        width: 80%;
+        height: 100;
+        .swiper {
+            width: 100%;
+            height: 100%;
+          }
+    
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            img{
+                width: 10px;
+            }
+    
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+          }
+    
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+    
+    }
+    
+    
+    .fidans{
+        position: absolute;
+        top: 5500px;
+        left: 150px;
+        width: 80%;
+        height: 100;
+        .swiper {
+            width: 100%;
+            height: 100%;
+          }
+      
+          .swiper-slide {
+              display: block;
+              flex-direction: column;
+              padding: 30px 50px;
+            font-size: 18px;
+            color: #fff;
+            border: 1px solid;
+            border-radius: 20px;
+            background-color: $textcolor;
+          }
+
+          .fimg{
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              font-family: $f-family;
+              margin-bottom: 5px;
+              img{
+                  width: 40px;      
+                }
+                p{
+
+                  padding-left: 10px;
+                  margin: 0;
+              }
+              .dizayner{
+                  opacity: 0.4;
+              }
+
+          }
+      
+          @media (max-width: 760px) {
+            .swiper-button-next {
+              right: 20px;
+              transform: rotate(90deg);
+            }
+      
+            .swiper-button-prev {
+              left: 20px;
+              transform: rotate(90deg);
+            }
+          }
+      }
+
+      .birkard{
+        position: absolute;
+        top: 5900px;
+        left: 80px;
+        width: 90%;
+        height: 520px;
+        background-color: $textcolor;
+        border-radius: 20px;
+        color: white;
+        font-family: $f-family;
+
+        .birimg img{
+            width: 100%;
+            height: 500px;
+        }
+
+        .birtext{
+            padding: 40px;
+            .birkart{
+                font-size: 50px;
+                font-family: $f-family;
+                font-weight: 700;
+            }
+            .birbutton{
+                width: 230px;
+                height: 80px;
+                margin-top: 20px;
+                padding: 5px 10px;
+                background-color: $bodycolor;
+                font-family: $f-family;
+                font-size: 22px;
+                font-weight: 700;
+                border: none;
+                border-radius: 40px;
+
+                line-height: 30px;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: $textcolor;
+                }
+
+            }
+        }
+
+      }
+
+      .endsection{
+          position: absolute;
+          top: 6500px;
+          left: 150px;
+          .endtexts{
+              .endtext1{
+                font-size: 40px;
+                font-family: $f-family;
+                font-weight: 700;
+                line-height: 60px;
+              }
+              .endtext2{
+                  font-family: $f-family;
+                  font-size: 25px;
+                 
+              }
+          }
+      }
+
+      .terminallogo{
+         width: 100%;    
+         img{
+             width: 300px;
+             padding: 40px;
+          }
+      }
+
+}
+
+#footers{
+    position: absolute;
+    height: 1300px;
+    width: 100%;
+    top: 6900px;
+    
+    background-color: $textcolor;
+    .signup{
+        width: 90%;
+        height: 640px;
+        margin: 60px 80px;
+        border-radius: 20px;
+        background-color: #F3F3F3;
+        .signleft{
+            width: 80%;
+            padding: 40px;
+        }
+       .textleft{
+        font-size: 50px;
+        font-family: $f-family;
+        font-weight: 700;
+        line-height: 60px;
+       } 
+       .textleft2{
+        font-family: $f-family;
+        font-size: 30px;
+       }
+    }
+    .signform{
+        width: 600px;
+        padding: 40px;
+        input{
+            width: 500px;
+            height: 50px;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: none;
+            padding: 30px;
+        }
+        .comment{
+            padding-bottom: 100px;
+        }
+        .signbutton{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+            padding-top: 30px;
+        }
+    }
+    .footerkontakt{
+        color: white;
+        .phone{
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            p{
+                text-align: start;
+                padding-left: 20px;
+                margin: 0;
+                
+            }
+        }
+
+        .melumat{
+            font-family: $f-family;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 40px;
+            text-align: left
+
+        }
+        .kontakticon{
+            width: 100%;
+            margin-top: 50px;  
+        }
+
+        .bdcfooter{
+            border-top: 1px solid white;
+            .bdckontakt{
+                margin-top: 30px;
+                background-color: white;  
+            }
+            p{
+               padding-top: 20px; 
+            }
+        }
+    }
+
 }

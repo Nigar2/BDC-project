@@ -1,3 +1,4 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
 #navbar {
   margin-top: 2%;
 }
@@ -49,19 +50,50 @@
   border-radius: 30px;
 }
 
+#headerbar .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#headerbar .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 50px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#headerbar .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+}
+
 #headerbar .black-icon {
   width: 370px;
 }
 
 #headerbar .text1 {
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-size: 90px;
   font-weight: 700;
   line-height: 115px;
 }
 
 #headerbar .text2 {
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -82,7 +114,7 @@
 
 #headerbar .texts .texts-2 .text3 {
   margin: 0;
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-size: 15px;
   font-weight: 400;
   color: #00000080;
@@ -90,7 +122,7 @@
 
 #headerbar .texts .texts-2 .text4 {
   margin: 0;
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-size: 20px;
   font-weight: 700;
   color: #FF0000;
@@ -98,52 +130,37 @@
 
 #headerbar .iconicimg .v-1 {
   position: absolute;
-  left: 79%;
+  left: 76%;
   right: 8.33%;
   top: 2%;
 }
 
 #headerbar .iconicimg .v-2 {
   position: absolute;
-  left: 82%;
+  left: 79%;
   right: 8.33%;
   top: 2%;
 }
 
 #headerbar .iconicimg .v-3 {
   position: absolute;
-  left: 85%;
+  left: 82%;
   right: 8.33%;
   top: 2%;
 }
 
 #headerbar .iconicimg .v-4 {
   position: absolute;
-  left: 88%;
+  left: 85%;
   right: 8.33%;
   top: 2%;
 }
 
 #headerbar .iconicimg .v-5 {
   position: absolute;
-  left: 91%;
-  right: 8.33%;
+  left: 88%;
+  right: 8%;
   top: 2%;
-}
-
-#headerbar .asideimg img {
-  margin-top: 30px;
-  height: 700px;
-  width: 700px;
-  border-radius: 30px;
-}
-
-#headerbar .ellipse img {
-  position: absolute;
-  width: 133px;
-  height: 15.69px;
-  left: 68%;
-  bottom: 30px;
 }
 
 main .maintext {
@@ -151,7 +168,7 @@ main .maintext {
   width: 417px;
   left: 181px;
   top: 1000px;
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-weight: 700;
   font-size: 50px;
   color: #262626;
@@ -162,7 +179,7 @@ main .maintext2 {
   width: 1207px;
   left: 181px;
   top: 1080px;
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #262626;
@@ -204,7 +221,7 @@ main .button1 button {
 
 main .button1 button a {
   text-decoration: none;
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -243,7 +260,7 @@ main .button2 button {
 
 main .button2 button a {
   text-decoration: none;
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -256,7 +273,7 @@ main .text .text-11 {
   width: 1207px;
   left: 181px;
   top: 1380px;
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-weight: 600;
   font-size: 50px;
   color: #262626;
@@ -267,7 +284,7 @@ main .text .text-12 {
   width: 1207px;
   left: 181px;
   top: 1550px;
-  font-family: arial;
+  font-family: "Gotham", sans-serif;
   font-weight: 400;
   font-size: 25px;
   color: #262626;
@@ -311,13 +328,426 @@ main .numbertext .y-text {
 main .endphoto {
   width: 80%;
   position: absolute;
+  margin: 2%;
   left: 90px;
   top: 1900px;
 }
 
-main .endphoto img {
-  width: 60%;
-  margin-top: 10px;
+main .endphoto .frames {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+}
+
+main .endphoto .frames .frameimg img {
+  width: 170px;
+  margin-top: 40px;
+}
+
+main .endphoto .frames .frametext {
+  font-family: 'Gotham', sans-serif;
+  font-size: 25px;
+}
+
+main .rectangle {
+  position: absolute;
+  margin: 2%;
+  top: 2600px;
+}
+
+main .rectangle .rectangletext {
+  margin-left: 130px;
+  font-size: 50px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 700;
+}
+
+main .rectangle .rectangleimg img {
+  width: 100%;
+}
+
+main .vectors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px;
+}
+
+main .vectors .vecimg {
+  padding-bottom: 30px;
+}
+
+main .vectors .vecimg img {
+  width: 40px;
+}
+
+main .vectors .vectext {
+  padding-left: 18px;
+  line-height: 45px;
+  font-family: "Gotham", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main .t-12 {
+  margin-left: 130px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #262626;
+}
+
+main .humanway {
+  padding-left: 100px;
+  padding-top: 30px;
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 1620px;
+  height: 330px;
+  border: 2px solid #262626;
+  border-radius: 25px;
+}
+
+main .humanway .humanimg img {
+  width: 180px;
+}
+
+main .humanway .xett {
+  position: absolute;
+  left: 550px;
+  top: 1610px;
+}
+
+main .humanway .xettt {
+  position: absolute;
+  left: 920px;
+  top: 1610px;
+}
+
+main .humanway .humantext {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+main .humanway .humantext p {
+  margin: 20px 18px;
+  padding-right: 170px;
+  font-size: 25px;
+}
+
+main .fourimages {
+  position: absolute;
+  top: 4650px;
+  left: 150px;
+  width: 80%;
+  height: 100;
+}
+
+main .fourimages .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+main .fourimages .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .fourimages .swiper-slide img {
+  width: 10px;
+}
+
+main .fourimages .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .fidans {
+  position: absolute;
+  top: 5500px;
+  left: 150px;
+  width: 80%;
+  height: 100;
+}
+
+main .fidans .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+main .fidans .swiper-slide {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 50px;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #262626;
+}
+
+main .fidans .fimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Gotham", sans-serif;
+  margin-bottom: 5px;
+}
+
+main .fidans .fimg img {
+  width: 40px;
+}
+
+main .fidans .fimg p {
+  padding-left: 10px;
+  margin: 0;
+}
+
+main .fidans .fimg .dizayner {
+  opacity: 0.4;
+}
+
+@media (max-width: 760px) {
+  main .fidans .swiper-button-next {
+    right: 20px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  main .fidans .swiper-button-prev {
+    left: 20px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+}
+
+main .birkard {
+  position: absolute;
+  top: 5900px;
+  left: 80px;
+  width: 90%;
+  height: 520px;
+  background-color: #262626;
+  border-radius: 20px;
+  color: white;
+  font-family: "Gotham", sans-serif;
+}
+
+main .birkard .birimg img {
+  width: 100%;
+  height: 500px;
+}
+
+main .birkard .birtext {
+  padding: 40px;
+}
+
+main .birkard .birtext .birkart {
+  font-size: 50px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 700;
+}
+
+main .birkard .birtext .birbutton {
+  width: 230px;
+  height: 80px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #FFC700;
+  font-family: "Gotham", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  border-radius: 40px;
+  line-height: 30px;
+  text-align: center;
+}
+
+main .birkard .birtext .birbutton a {
+  text-decoration: none;
+  color: #262626;
+}
+
+main .endsection {
+  position: absolute;
+  top: 6500px;
+  left: 150px;
+}
+
+main .endsection .endtexts .endtext1 {
+  font-size: 40px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+main .endsection .endtexts .endtext2 {
+  font-family: "Gotham", sans-serif;
+  font-size: 25px;
+}
+
+main .terminallogo {
+  width: 100%;
+}
+
+main .terminallogo img {
+  width: 300px;
+  padding: 40px;
+}
+
+#footers {
+  position: absolute;
+  height: 1300px;
+  width: 100%;
+  top: 6900px;
+  background-color: #262626;
+}
+
+#footers .signup {
+  width: 90%;
+  height: 640px;
+  margin: 60px 80px;
+  border-radius: 20px;
+  background-color: #F3F3F3;
+}
+
+#footers .signup .signleft {
+  width: 80%;
+  padding: 40px;
+}
+
+#footers .signup .textleft {
+  font-size: 50px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+#footers .signup .textleft2 {
+  font-family: "Gotham", sans-serif;
+  font-size: 30px;
+}
+
+#footers .signform {
+  width: 600px;
+  padding: 40px;
+}
+
+#footers .signform input {
+  width: 500px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 30px;
+}
+
+#footers .signform .comment {
+  padding-bottom: 100px;
+}
+
+#footers .signform .signbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+#footers .footerkontakt {
+  color: white;
+}
+
+#footers .footerkontakt .phone {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footers .footerkontakt .phone p {
+  text-align: start;
+  padding-left: 20px;
+  margin: 0;
+}
+
+#footers .footerkontakt .melumat {
+  font-family: "Gotham", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: left;
+}
+
+#footers .footerkontakt .kontakticon {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#footers .footerkontakt .bdcfooter {
+  border-top: 1px solid white;
+}
+
+#footers .footerkontakt .bdcfooter .bdckontakt {
+  margin-top: 30px;
+  background-color: white;
+}
+
+#footers .footerkontakt .bdcfooter p {
+  padding-top: 20px;
 }
 
 *, *::after, *::before {
